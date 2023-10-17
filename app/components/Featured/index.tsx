@@ -56,7 +56,7 @@ export default class MultipleItems extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 2,
+            slidesToShow: 1,
             // centerMode: true,
             slidesToScroll: 1,
             arrows: true,
@@ -84,19 +84,25 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center pt-48 pb-10 md:pt-96">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-48" style={{marginRight: '20%'}}>Walmart</h3>
-                        <Image src={walmartLogo} alt="Walmart Logo" width={80} height={80} />
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-24 my-2">Delta Airlines</h3>
-                        <Image src={deltaLogo} alt="Delta Logo" width={100} height={100} />
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-0 my-2">UnderArmour</h3>
-                        <Image src={underamourLogo} alt="UnderArmour Logo" width={100} height={100} />                   
+                        <div style={{display:"flex", justifyContent:"center", alignItems:"center", padding:"20px"}}>
+                            <Image src={walmartLogo} alt="Walmart Logo" width={80} height={80} />
+                            <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-48" style={{marginRight: '20%'}}>Walmart</h3>
+                        </div>
+                        <div style={{display:"flex", justifyContent:"center", marginRight: "20px", padding:"20px"}}>
+                            <Image src={deltaLogo} alt="Delta Logo" width={100} height={100} />
+                            <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-24 my-2">Delta Airlines</h3>
+                        </div>
+                        <div style={{display:"flex", justifyContent:"center", padding:"20px", marginLeft: '-100px'}}>
+                            <Image src={underamourLogo} alt="UnderArmour Logo" width={100} height={100} style={{marginRight:"9px"}}/>
+                            <h3 className="text-4xl sm:text-6xl font-bold text-white lg:mr-0 my-2">UnderArmour</h3>
+                        </div>               
                     </div>
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>
 
-                                <div className='bg-transparent m-3 pb-12 my-10 rounded-3xl'>
+                                <div className='bg-transparent m-3 pb-12 my-10 rounded-3xl' style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                                     <Image src={items.imgSrc} alt="gaby" width={636} height={620} className="rounded-2xl" />
                                     <div className="w-345">
                                         <h4 className='sm:text-5xl font-bold sm:pt-6 text-center sm:text-start mt-10 text-white'>{items.heading}</h4>
