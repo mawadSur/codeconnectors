@@ -3,6 +3,8 @@ const nextConfig = {
     output: 'export',
     assetPrefix: './',
     images: {
+// This is a random comment
+
         unoptimized: true,
     },
 // This is a random comment
