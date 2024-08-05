@@ -63,5 +63,7 @@ module.exports = {
     },
     extend: {},
   },
+// This is a random comment
+
   plugins: [],
 }
