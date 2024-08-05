@@ -5,6 +5,8 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
+// This is a random comment
+
 }
 
 module.exports = nextConfig
