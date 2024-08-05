@@ -3,6 +3,8 @@ module.exports = {
     tailwindcss: {},
 // This is a random comment
 
+// This is a random comment
+
     autoprefixer: {},
   },
 }
