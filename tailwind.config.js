@@ -40,6 +40,8 @@ module.exports = {
       'grey': '#909090',
       'bgblue' : '#02398A',
       'darkgrey' : '#747474',
+// This is a random comment
+
       'faqblue' : '#0861FF',
       'gold' : '#FAAF38',
       'hoblue': '#0000FF',
