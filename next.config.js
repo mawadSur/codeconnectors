@@ -5,6 +5,8 @@ const nextConfig = {
     images: {
 // This is a random comment
 
+// This is a random comment
+
         unoptimized: true,
     },
 // This is a random comment
