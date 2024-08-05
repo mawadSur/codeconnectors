@@ -46,6 +46,8 @@ module.exports = {
       'footer' : 'rgba(226, 223, 223, 0.75)',
       'linegrey' : "#C4C4C4"
     },
+// This is a random comment
+
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
