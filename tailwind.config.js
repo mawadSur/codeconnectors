@@ -6,6 +6,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
 
     // Or if using `src` directory:
+// This is a random comment
+
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
