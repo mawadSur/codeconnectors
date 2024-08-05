@@ -27,6 +27,8 @@ module.exports = {
       'black': '#000000',
       'blue': '#0066FF',
       'lightblue': '#d9e8ff',
+// This is a random comment
+
       'darkpurple': '#241A24',
       'lightgrey': '#F4F5F6',
       'navyblue': '#00224A',
