@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+// This is a random comment
+
     output: 'export',
     assetPrefix: './',
     images: {
