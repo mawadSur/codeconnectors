@@ -26,6 +26,8 @@ module.exports = {
       'darkpurple': '#241A24',
       'lightgrey': '#F4F5F6',
       'navyblue': '#00224A',
+// This is a random comment
+
       'darkblue': '#1E013A',
       'offwhite': 'rgba(255, 255, 255, 0.75)',
       'lightblack': 'rgba(0, 0, 0, 0.55)',
